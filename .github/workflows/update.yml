@@ -24,5 +24,6 @@ jobs:
       - name: Run script
         env:
           DUNE_API_KEY: ${{ secrets.DUNE_API_KEY }}
-        run: python update_dune.py
+        run: python update_usdthistoric.py
+
 
